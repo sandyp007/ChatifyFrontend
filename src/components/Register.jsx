@@ -112,18 +112,30 @@ const Register = () => {
                <div className='form-group'>
                   <div className='file-image'>
                          <div className='image'>
+                              
      {loadImage ? <img src={loadImage} /> : ''  }                         
                          </div>
                <div className='file'>
                <label htmlFor='image'>Select Image</label>
                <input type="file" onChange={fileHendle}  name="image" className='form-control' id='image' />
+              
+              
+               <select className='gender' name="Gender" id="Gender">
+               <option value="Gender" selected>Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+               </select>
+
                </div>
 
              </div>
+             
                </div>
 
                <div className='form-group'>
                <input type="submit" value="register" className='btn' />
+               
                </div>
 
 

@@ -77,7 +77,12 @@ const Login = () => {
 
                <div className='form-group'>
      <span><Link to="/messenger/register"> Don't have any Account </Link></span>
+     {/* <span><Link to="/messenger/resetpass"> Reset Password </Link></span> */}
                </div>  
+
+               
+
+
           </form> 
      </div>
 

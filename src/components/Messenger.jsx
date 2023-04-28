@@ -335,9 +335,7 @@ useEffect(() => {
   <div onClick={()=> setHide(!hide) }  className='icon'>
                               <FaEllipsisH />
                             </div>
-                            <div className='icon'>
-                                  <FaEdit/> 
-                            </div>
+                            
 
             <div className={hide ? 'theme_logout' : 'theme_logout show'}>
                  <h3>Dark Mode </h3>

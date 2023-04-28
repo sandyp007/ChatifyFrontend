@@ -90,12 +90,22 @@
                     }
                     .file{
                         display: flex;
-                        flex-direction: column;
+                        flex-direction: row;
                         justify-content: center;
                         
                         align-items: center;
                         .form-control{
                             display: none;
+                        }
+
+                        .gender{
+                            margin-left: 80px;
+                            background-color: #0a0e1585;
+                            color: white;
+                            height: 34px;
+                            width: 80px;
+                            text-align: center;
+                            border-radius: 60px;
                         }
                     
                         label{
