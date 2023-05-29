@@ -3,6 +3,10 @@ import { FaPhoneAlt, FaVideo, FaRocketchat } from "react-icons/fa";
 import FriendInfo from "./FriendInfo";
 import Message from "./Message";
 import MessageSend from "./MessageSend";
+import { toast } from "react-hot-toast";
+
+
+
 
 const RightSide = (props) => {
   const {
@@ -45,11 +49,11 @@ const RightSide = (props) => {
 
                 <div className="icons">
                   <div className="icon">
-                    <FaPhoneAlt />
+                    <FaPhoneAlt  onClick={() => toast('This feature is for future scope')} />
                   </div>
 
                   <div className="icon">
-                    <FaVideo />
+                    <FaVideo  onClick={() => toast('This feature is for future scope')} />
                   </div>
 
                   <div className="icon">

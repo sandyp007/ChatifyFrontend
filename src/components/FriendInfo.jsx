@@ -28,10 +28,10 @@ const FriendInfo = ({ currentfriend, activeUser, message }) => {
           <FaCaretSquareDown/>
      </div> */}
 
-        <div className="privacy">
+        {/* <div className="privacy">
           <h3>Privacy and Support </h3>
           <FaCaretSquareDown />
-        </div>
+        </div> */}
 
         <div className="media">
           <h3>Shared Media </h3>
